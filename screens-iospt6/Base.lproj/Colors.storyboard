@@ -39,7 +39,7 @@
                         <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="ge6-Pl-zSr"/>
                     </view>
-                    <navigationItem key="navigationItem" id="5g6-GN-GbC">
+                    <navigationItem key="navigationItem" title="Blue" id="5g6-GN-GbC">
                         <barButtonItem key="rightBarButtonItem" title="Yellow" id="N51-Uo-txb">
                             <connections>
                                 <segue destination="Kah-g8-LKK" kind="show" id="nKb-Gx-VzP"/>
@@ -61,7 +61,7 @@
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="dXa-Uf-11i"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cnC-Wd-cSD">
+                    <navigationItem key="navigationItem" title="Green" id="cnC-Wd-cSD">
                         <rightBarButtonItems>
                             <barButtonItem title="Blue" id="hco-bg-Y6C">
                                 <connections>
@@ -80,7 +80,7 @@
             </objects>
             <point key="canvasLocation" x="2319" y="846"/>
         </scene>
-        <!--Numbered View Controller-->
+        <!--Purple-->
         <scene sceneID="n4f-aR-ezE">
             <objects>
                 <viewController id="aNV-IE-B97" customClass="NumberedViewController" customModule="screens_iospt6" customModuleProvider="target" sceneMemberID="viewController">
@@ -90,7 +90,7 @@
                         <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="J4p-rX-e50"/>
                     </view>
-                    <navigationItem key="navigationItem" id="mZC-5H-P6s">
+                    <navigationItem key="navigationItem" title="Purple" id="mZC-5H-P6s">
                         <barButtonItem key="rightBarButtonItem" title="Orange" id="PxF-e1-ZZ1">
                             <connections>
                                 <segue destination="39d-vV-wyp" kind="show" id="nAM-Kc-S5x"/>
@@ -118,7 +118,7 @@
             </objects>
             <point key="canvasLocation" x="3755" y="1511"/>
         </scene>
-        <!--View Controller-->
+        <!--Yellow-->
         <scene sceneID="eiJ-hE-mkN">
             <objects>
                 <viewController id="Kah-g8-LKK" sceneMemberID="viewController">
@@ -128,7 +128,7 @@
                         <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Agr-8P-A0l"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8D0-CF-2RO">
+                    <navigationItem key="navigationItem" title="Yellow" id="8D0-CF-2RO">
                         <rightBarButtonItems>
                             <barButtonItem title="Done" id="wcs-t0-wyf">
                                 <connections>
@@ -154,8 +154,8 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="g04-IJ-pnn" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="history" id="PyU-6a-b5n"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8lF-XH-4V5">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="8lF-XH-4V5">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
